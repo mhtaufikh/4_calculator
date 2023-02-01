@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(2, 0, 6);
+  background: linear-gradient(to bottom, #bed4e2 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.p-gradeout {
+  font-weight: bold;
+  color: #000000;
+  text-emphasis-color: rgb(3, 3, 3);
+}
+
+.p-gradeout:hover {
+  background-color: #fbff14;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0px 0px 3px rgb(208, 223, 4);
+}
+
+.kertas {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, #e71f1f 0%, rgb(255, 255, 255) 100%);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.simpan:hover {
+  background-color: #0477c2;
+  border-radius: 10px;
+}
+
+.box {
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 100px auto;
+  background-color: white;
+}
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px 0;
+}
+.btn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: salmon;
+  color: white;
+}
+
+.btn:hover {
+  background-color: crimson;
+  pointer-events: all;
+}
+
+.reset {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  margin: 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
